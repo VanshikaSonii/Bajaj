@@ -1,3 +1,4 @@
+
 async function createAccount() {
   const url = 'https://customer-analytics-34146.my.salesforce-sites.com/services/apexrest/createAccount';
   const data = {
@@ -37,7 +38,7 @@ async function buyStocks(accountNumber) {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
-      'bfhl-auth': 'Your roll number'
+      'bfhl-auth': '2110991518'
     },
     body: JSON.stringify(data)
   });
@@ -53,3 +54,14 @@ async function main() {
     console.log('Buy Stocks Result:', result);
   
 }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
