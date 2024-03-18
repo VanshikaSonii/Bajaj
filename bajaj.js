@@ -31,7 +31,7 @@ async function buyStocks(accountNumber) {
     company: 'Bajaj Finserv',
     currentPrice: '1578',
     accountNumber: this.accountNumber,
-    githubRepoLink: 'https://github.com/VanshikaSonii'
+    githubRepoLink: 'https://github.com/VanshikaSonii/Bajaj'
   };
 
   const response = await fetch(url, {
